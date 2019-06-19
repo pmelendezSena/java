@@ -50,6 +50,6 @@ public class Interfaz extends JFrame {
         this.setVisible(true);
         this.setLayout(null);
         this.setResizable(false);
-        setLocationRelativeTo(null);  
+        this.setLocationRelativeTo(null);  
         }
 }
