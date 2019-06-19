@@ -31,7 +31,11 @@ public class Interfaz extends JFrame {
     
     public JTextField txtpantalla;
     
-      public Interfaz() {
+    public Interfaz() {
+        initComponents();
+    }
+        
+    private void initComponents() {   
         txtpantalla = new JTextField();
         jButton0 = new JButton();
         jButton1 = new JButton();
@@ -53,27 +57,28 @@ public class Interfaz extends JFrame {
         jButtonCE = new JButton();
         jButtonInv = new JButton();
         jButtonTot = new JButton();
-          
+               
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);         
         this.setBounds(10,10,280,250);
         this.setVisible(true);
         this.setLayout(null);
         this.setResizable(false);
-        this.setLocationRelativeTo(null);  
-          
+        setLocationRelativeTo(null);
+        
         Font fuente = new Font("Arial", 0, 16);    
         txtpantalla.setBounds(10, 5, 260, 50);
         txtpantalla.setFont(fuente);
         txtpantalla.setHorizontalAlignment(JTextField.RIGHT); 
-        add(txtpantalla);  
-          
+        add(txtpantalla);
+        
+
         jButton1.setFont(fuente);    
         jButton1.setBackground(new Color(0, 102, 102));
         jButton1.setForeground(new Color(255, 255, 255));
         jButton1.setText("1"); 
         jButton1.setBounds(10,60,45,30);
-        add(jButton1);    
-          
+        add(jButton1);
+        
         jButton4.setFont(fuente);    
         jButton4.setBackground(new Color(0, 102, 102));
         jButton4.setForeground(new Color(255, 255, 255));
@@ -208,6 +213,7 @@ public class Interfaz extends JFrame {
         jButtonTot.setForeground(new Color(255, 255, 255));
         jButtonTot.setText("=");
         jButtonTot.setBounds(210,165,60,30);
-        add(jButtonTot);  
-        }
+        add(jButtonTot);       
+ }
+        
 }
