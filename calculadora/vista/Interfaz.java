@@ -1,3 +1,10 @@
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.WindowConstants;
+
 public class Interfaz extends JFrame {
     public JButton jButton0;
     public JButton jButton1;
