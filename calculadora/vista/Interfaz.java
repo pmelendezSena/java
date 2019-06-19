@@ -64,5 +64,12 @@ public class Interfaz extends JFrame {
         txtpantalla.setFont(fuente);
         txtpantalla.setHorizontalAlignment(JTextField.RIGHT); 
         add(txtpantalla);  
+          
+        jButton1.setFont(fuente);    
+        jButton1.setBackground(new Color(0, 102, 102));
+        jButton1.setForeground(new Color(255, 255, 255));
+        jButton1.setText("1"); 
+        jButton1.setBounds(10,60,45,30);
+        add(jButton1);    
         }
 }
