@@ -44,5 +44,12 @@ public class Interfaz extends JFrame {
         jButtonCE = new JButton();
         jButtonInv = new JButton();
         jButtonTot = new JButton();
+          
+        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);         
+        this.setBounds(10,10,280,250);
+        this.setVisible(true);
+        this.setLayout(null);
+        this.setResizable(false);
+        setLocationRelativeTo(null);  
         }
 }
