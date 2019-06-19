@@ -23,6 +23,26 @@ public class Interfaz extends JFrame {
     public JTextField txtpantalla;
     
       public Interfaz() {
-       
+        txtpantalla = new JTextField();
+        jButton0 = new JButton();
+        jButton1 = new JButton();
+        jButton2 = new JButton();
+        jButton3 = new JButton();
+        jButton4 = new JButton();
+        jButton5 = new JButton();
+        jButton6 = new JButton();
+        jButton7 = new JButton();
+        jButton8 = new JButton();
+        jButton9 = new JButton();
+        jButtonSum = new JButton();
+        jButtonRes = new JButton();
+        jButtonMul = new JButton();
+        jButtonDiv = new JButton();
+        jButtonMm = new JButton();
+        jButtonPunto = new JButton();
+        jButtonC = new JButton();
+        jButtonCE = new JButton();
+        jButtonInv = new JButton();
+        jButtonTot = new JButton();
         }
 }
