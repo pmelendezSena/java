@@ -51,5 +51,11 @@ public class Interfaz extends JFrame {
         this.setLayout(null);
         this.setResizable(false);
         this.setLocationRelativeTo(null);  
+          
+        Font fuente = new Font("Arial", 0, 16);    
+        txtpantalla.setBounds(10, 5, 260, 50);
+        txtpantalla.setFont(fuente);
+        txtpantalla.setHorizontalAlignment(JTextField.RIGHT); 
+        add(txtpantalla);  
         }
 }
