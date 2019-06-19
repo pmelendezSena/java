@@ -19,4 +19,6 @@ public class Interfaz extends JFrame {
     public JButton jButtonCE;
     public JButton jButtonInv;
     public JButton jButtonTot;
+    
+    public JTextField txtpantalla;
 }
